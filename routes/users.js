@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('no user found');
+  res.render('users');
 });
 
 router.get('/cool',(req,res,next)=>{
